@@ -3,9 +3,9 @@ import java.util.Arrays;
 public class SumaCercana {
    
     public static int sumaMasCercana(int[] arr, int target) {
-        Arrays.sort(arr); // Ordenar el arreglo para facilitar la búsqueda
-        int closestSum = Integer.MAX_VALUE; // Inicializar la suma más cercana como el máximo entero posible
-        int minDiff = Integer.MAX_VALUE; // Inicializar la diferencia mínima como el máximo entero posible
+        Arrays.sort(arr); 
+        int closestSum = Integer.MAX_VALUE; 
+        int minDiff = Integer.MAX_VALUE; 
 
         for (int i = 0; i < arr.length - 2; i++) {
             int left = i + 1;

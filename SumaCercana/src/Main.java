@@ -5,7 +5,7 @@ public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        // Lectura de la entrada
+       
         System.out.println("Ingrese el tamaño del datos:");
         int N = scanner.nextInt();
         int[] arr = new int[N];
@@ -18,7 +18,7 @@ public class Main {
         System.out.println("Ingrese el valor de X:");
         int X = scanner.nextInt();
 
-        // Llamada a la función y salida
+     
         int result = SumaCercana.sumaMasCercana(arr, X);
         System.out.println("Suma más cercana a " + X + ": " + result);
 
